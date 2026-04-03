@@ -21,16 +21,10 @@ Generate images of the AI TikTok character.
 
 Use this skill ONLY when user asks to generate/create an image in #ai-tiktok-project channel.
 
-## Character Base (REALISTIC VIETNAMESE)
+## Character Base (FIXED FACE - MUST USE EXACTLY)
 
 ```
-A realistic beautiful young Vietnamese woman, around 20 years old, with natural youthful Vietnamese features. Soft oval face shape with a gentle jawline, not chubby, balanced facial proportions. Warm light tan skin with a healthy natural glow, realistic skin texture with subtle pores, slight natural imperfections, soft rosy cheeks.
-
-Soft natural pink lips with a slight coral tint, hydrated but not overly glossy. Almond-shaped expressive eyes with natural double eyelids, clear bright eyes with subtle catchlight, not overly large, maintaining real human proportions.
-
-Long silky straight black hair with soft natural layers, slightly flowing, natural shine. Minimal makeup, fresh dewy look, clean skin, no heavy cosmetics.
-
-Slim petite figure with natural human proportions, balanced head-to-body ratio, small proportional head, realistic anatomy, no exaggeration.
+Young East Asian woman, early 20s, oval face with soft delicate jawline and small pointed chin, fair skin with warm peachy undertones and dewy glass-skin finish, medium-large almond-shaped dark brown eyes with subtle double eyelid crease, natural straight-to-soft-arched dark brown eyebrows with feathered appearance, small delicate nose with soft rounded tip, medium natural pink lips with coral gradient tint and gentle cupid's bow, long warm chestnut brown hair with soft waves loose curls and wispy curtain bangs framing face, Korean natural beauty makeup style with peachy-pink blush, fresh youthful radiant appearance, sweet approachable feminine energy, slim petite figure with natural human proportions, balanced head-to-body ratio, small proportional head, realistic anatomy
 ```
 
 ## Photography Style
@@ -51,10 +45,10 @@ natural sunlight, soft highlights, balanced exposure, realistic skin tones (not 
 natural editorial composition, subject centered or slightly off-center, realistic framing, no extreme empty space, balanced headroom, cinematic crop
 ```
 
-## Face Control (IMPORTANT)
+## Face Control (IMPORTANT - KEEP CONSISTENT)
 
 ```
-realistic Vietnamese face, no western facial structure, no doll-like features, no overly large eyes, no porcelain white skin, natural asymmetry, subtle imperfections, authentic Southeast Asian appearance
+consistent face features across all generations, oval face soft jawline small pointed chin, fair peachy skin dewy glass-skin, almond dark brown eyes double eyelid, chestnut brown wavy hair curtain bangs, coral gradient lips, Korean fresh makeup style
 ```
 
 ## Negative Prompt
