@@ -65,6 +65,6 @@ western face, doll face, porcelain white skin, overly smooth skin, plastic skin,
 
 ## Generation Settings
 
-- **Size:** 1024x1536 (9:16 ratio)
+- **Size:** 1080x1920 (9:16 ratio)
 - Use `image_generate` tool
 - Always include Negative Prompt
