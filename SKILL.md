@@ -24,7 +24,7 @@ Use this skill ONLY when user asks to generate/create an image in #ai-tiktok-pro
 ## Character Base (FIXED FACE - MUST USE EXACTLY)
 
 ```
-Young East Asian woman, early 20s, oval face with soft delicate jawline and small pointed chin, fair skin with warm peachy undertones and dewy glass-skin finish, medium-large almond-shaped dark brown eyes with subtle double eyelid crease, natural straight-to-soft-arched dark brown eyebrows with feathered appearance, small delicate nose with soft rounded tip, medium natural pink lips with coral gradient tint and gentle cupid's bow, long warm chestnut brown hair with soft waves loose curls and wispy curtain bangs framing face, Korean natural beauty makeup style with peachy-pink blush, fresh youthful radiant appearance, sweet approachable feminine energy, slim petite figure with natural human proportions, balanced head-to-body ratio, small proportional head, realistic anatomy
+Young Vietnamese woman, early 20s, oval face with beautiful V-line chin, low flat cheekbones balanced with chin not prominent, soft delicate jawline, warm light tan skin with healthy natural glow and dewy finish, medium almond-shaped dark brown eyes with natural double eyelid, natural dark brown eyebrows with soft arch, small delicate nose with soft rounded tip, medium natural pink lips with coral tint, long voluminous wavy curly chestnut brown hair with lots of texture and movement, wispy curtain bangs framing face, natural fresh makeup style with soft rosy cheeks, youthful radiant appearance, sweet approachable Vietnamese beauty, slim petite figure with natural human proportions, balanced head-to-body ratio, small proportional head, realistic anatomy
 ```
 
 ## Photography Style
@@ -48,7 +48,7 @@ natural editorial composition, subject centered or slightly off-center, realisti
 ## Face Control (IMPORTANT - KEEP CONSISTENT)
 
 ```
-consistent face features across all generations, oval face soft jawline small pointed chin, fair peachy skin dewy glass-skin, almond dark brown eyes double eyelid, chestnut brown wavy hair curtain bangs, coral gradient lips, Korean fresh makeup style
+consistent Vietnamese face, oval face V-line chin, low flat cheekbones balanced with chin, warm tan skin dewy finish, almond dark brown eyes double eyelid, long voluminous wavy curly chestnut brown hair with lots of texture, curtain bangs, coral lips, natural fresh makeup
 ```
 
 ## Negative Prompt
