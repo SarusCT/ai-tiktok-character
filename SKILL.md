@@ -32,25 +32,13 @@ This is ONE single person.
 
 ## 👤 CHARACTER IDENTITY (LOCKED - NEVER CHANGE)
 
-A young Vietnamese woman, 18 years old.
+A single young Vietnamese girl, 16–18 years old, SAME PERSON, consistent identity, identical facial structure.
 
-Face (STRICT LOCK):
-- youthful oval face
-- soft V-line chin
-- smooth fair glowing skin (natural dewy)
-- almond-shaped dark brown eyes
-- natural double eyelids
-- soft long lashes
-- natural brows with soft arch
-- small delicate nose with rounded tip
-- natural pink lips with glossy coral tint
-- subtle rosy blush
+**Face details:**
+youthful oval face with soft baby face features, slightly rounder cheeks with natural fullness and subtle baby fat, shorter and softer chin, very gentle jawline, smooth fair skin with soft translucency and natural glow, almond-shaped dark brown eyes appearing slightly larger and more open, natural double eyelids, soft long lashes, natural straight brows, small delicate nose with rounded tip, natural pink lips with very light tint, soft natural blush, fresh teenage look, minimal makeup, almost bare skin.
 
-Hair (LOCKED STYLE):
-- long, voluminous
-- wavy / curly
-- chestnut brown
-- very textured, fluffy, bouncy
+**Hair:**
+long voluminous wavy chestnut brown hair, soft texture, slightly fluffy, natural movement, youthful style.
 
 👉 This description MUST appear in EVERY prompt
 
@@ -72,26 +60,94 @@ Hair (LOCKED STYLE):
 ## 📸 OUTPUT PROMPT STRUCTURE
 
 ```
-Wide environmental portrait, rule of thirds composition. Subject positioned in the lower third of the frame, vast [ENVIRONMENT] occupying the upper two-thirds. Single subject, one Vietnamese woman only.
+Wide environmental portrait, rule of thirds composition.
 
-A young Vietnamese woman (18 years old) with a youthful oval face, soft V-line chin, smooth fair glowing skin with natural dewy finish. Almond-shaped dark brown eyes with natural double eyelids, soft long lashes, natural brows with soft arch. Small delicate nose with rounded tip, natural pink lips with glossy coral tint, subtle rosy blush. Long voluminous wavy curly chestnut brown hair, very textured fluffy bouncy.
+A single young Vietnamese girl, 16–18 years old, SAME PERSON, consistent identity, identical facial structure.
 
-[BODY/OUTFIT DESCRIPTION]
+Face details:
+youthful oval face with soft baby face features, slightly rounder cheeks with natural fullness and subtle baby fat, shorter and softer chin, very gentle jawline, smooth fair skin with soft translucency and natural glow, almond-shaped dark brown eyes appearing slightly larger and more open, natural double eyelids, soft long lashes, natural straight brows, small delicate nose with rounded tip, natural pink lips with very light tint, soft natural blush, fresh teenage look, minimal makeup, almost bare skin.
 
-[POSE/ACTION], [GAZE - not looking at camera].
+Hair:
+long voluminous wavy chestnut brown hair, soft texture, slightly fluffy, natural movement, youthful style.
 
-[ENVIRONMENT DETAILS]
+Pose & Action:
+[POSE/ACTION DESCRIPTION]
 
-Soft muted pastel tones, low saturation, gentle colors, clean sharp image quality, smooth skin texture, shallow depth of field 85mm lens f/2.8, cinematic lighting, photorealistic, ultra-detailed, 8K.
+Outfit:
+[OUTFIT DESCRIPTION]
+
+Environment:
+[ENVIRONMENT DESCRIPTION]
+
+Lighting:
+soft natural daylight, diffused light, gentle highlights, soft shadows, bright and fresh atmosphere.
+
+Camera:
+85mm lens, f/2.8, shallow depth of field, subject sharp, soft creamy background blur.
+
+Style:
+natural lifestyle photography, soft pastel tones, low saturation, clean color grading, fresh and airy mood.
+
+Realism Enhancers:
+natural skin texture, very subtle imperfections, youthful skin softness, not overly perfect, candid photography.
+
+Consistency:
+same person, consistent identity, no variation in facial features.
+
+Quality:
+photorealistic, ultra detailed, 8K, high realism, teenage natural look, innocent expression, youthful energy.
+```
+
+---
+
+## 📝 EXAMPLE PROMPT
+
+```
+Wide environmental portrait, rule of thirds composition.
+
+A single young Vietnamese girl, 16–18 years old, SAME PERSON, consistent identity, identical facial structure.
+
+Face details:
+youthful oval face with soft baby face features, slightly rounder cheeks with natural fullness and subtle baby fat, shorter and softer chin, very gentle jawline, smooth fair skin with soft translucency and natural glow, almond-shaped dark brown eyes appearing slightly larger and more open, natural double eyelids, soft long lashes, natural straight brows, small delicate nose with rounded tip, natural pink lips with very light tint, soft natural blush, fresh teenage look, minimal makeup, almost bare skin.
+
+Hair:
+long voluminous wavy chestnut brown hair, soft texture, slightly fluffy, natural movement, youthful style.
+
+Pose & Action:
+She is holding a skincare product in one hand, standing naturally, relaxed posture, soft gentle expression, slightly smiling, candid moment.
+
+Outfit:
+light beige homewear robe, soft fabric, minimal, natural and youthful styling.
+
+Environment:
+bright modern indoor space with large window, soft daylight entering, clean minimal interior, airy feeling.
+
+Lighting:
+soft natural daylight, diffused light, gentle highlights, soft shadows, bright and fresh atmosphere.
+
+Camera:
+85mm lens, f/2.8, shallow depth of field, subject sharp, soft creamy background blur.
+
+Style:
+natural lifestyle photography, soft pastel tones, low saturation, clean color grading, fresh and airy mood.
+
+Realism Enhancers:
+natural skin texture, very subtle imperfections, youthful skin softness, not overly perfect, candid photography.
+
+Consistency:
+same person, consistent identity, no variation in facial features.
+
+Quality:
+photorealistic, ultra detailed, 8K, high realism, teenage natural look, innocent expression, youthful energy.
 ```
 
 ---
 
 ## ⚠️ RULES
 
-1. **SINGLE PERSON** - Always include "single subject, one Vietnamese woman only"
+1. **SINGLE PERSON** - Always "single young Vietnamese girl, SAME PERSON"
 2. **CONSISTENT FACE** - Use exact face description every time
-3. **NO CAMERA LOOK** - Subject never looks directly at camera
+3. **BABY FACE** - Rounder cheeks, softer chin, teenage look
 4. **CLEAN QUALITY** - No heavy grain, sharp image
 5. **MUTED COLORS** - Soft pastel, low saturation
 
@@ -100,4 +156,4 @@ Soft muted pastel tones, low saturation, gentle colors, clean sharp image qualit
 ## 🎬 GENERATION SETTINGS
 
 - **Model:** gpt-image-1
-- **Size:** 1024x1536 (portrait 2:3)
+- **Size:** 1024x1536 (portrait, closest to 9:16)
