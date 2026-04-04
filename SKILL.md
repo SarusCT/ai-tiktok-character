@@ -44,6 +44,24 @@ long voluminous wavy dark brown hair with highlights, soft texture, slightly flu
 
 ---
 
+## 📐 COMPOSITION GRID (LOCKED - USE FOR ALL)
+
+**3x3 Grid Rule:**
+```
+| 1 | 2 | 3 |   ← Environment/Sky (top row)
+| 4 | 5 | 6 |   ← Subject in cell 5 (center)
+| 7 | 8 | 9 |   ← Subject in cell 8 (bottom center)
+```
+
+- Subject MUST be positioned in **cell 5 and cell 8** (center column, middle + bottom)
+- Small details (hair, accessories, dress edges) may extend into adjacent cells
+- Top row (1, 2, 3) = environment, sky, background
+- Use: `rule of thirds composition, subject centered in middle and lower third of frame`
+
+👉 This grid MUST be applied in EVERY prompt
+
+---
+
 ## 🎨 LIGHTING & STYLE (LOCKED - USE FOR ALL)
 
 **Lighting:**
@@ -76,7 +94,7 @@ soft focus background, warm diffused tones, gentle shadows, relaxed elegant atmo
 ## 📸 OUTPUT PROMPT STRUCTURE
 
 ```
-[COMPOSITION/FRAMING]
+Rule of thirds 3x3 grid composition, subject centered in middle and lower third of frame (cells 5 and 8), environment occupying top row.
 
 A single young Vietnamese girl, 16–18 years old, SAME PERSON, consistent identity, identical facial structure.
 
