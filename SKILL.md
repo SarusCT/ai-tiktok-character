@@ -38,9 +38,25 @@ A single young Vietnamese girl, 16–18 years old, SAME PERSON, consistent ident
 youthful oval face with soft baby face features, slightly rounder cheeks with natural fullness and subtle baby fat, shorter and softer chin, very gentle jawline, smooth fair skin with soft translucency and natural glow, almond-shaped dark brown eyes appearing slightly larger and more open, natural double eyelids, soft long lashes, natural straight brows, small delicate nose with rounded tip, natural pink lips with very light tint, soft natural blush, fresh teenage look, minimal makeup, almost bare skin.
 
 **Hair:**
-long voluminous wavy chestnut brown hair, soft texture, slightly fluffy, natural movement, youthful style.
+long voluminous wavy dark brown hair with highlights, soft texture, slightly fluffy, natural movement, youthful style.
 
 👉 This description MUST appear in EVERY prompt
+
+---
+
+## 🎨 LIGHTING & STYLE (LOCKED - USE FOR ALL)
+
+**Lighting:**
+```
+warm and diffused lighting, casting gentle shadows, highlighting hair and skin, creating a relaxed and elegant atmosphere
+```
+
+**Style:**
+```
+soft focus background, warm diffused tones, gentle shadows, relaxed elegant atmosphere, eye-level perspective
+```
+
+👉 This lighting/style MUST appear in EVERY prompt
 
 ---
 
@@ -60,7 +76,7 @@ long voluminous wavy chestnut brown hair, soft texture, slightly fluffy, natural
 ## 📸 OUTPUT PROMPT STRUCTURE
 
 ```
-Wide environmental portrait, rule of thirds composition.
+[COMPOSITION/FRAMING]
 
 A single young Vietnamese girl, 16–18 years old, SAME PERSON, consistent identity, identical facial structure.
 
@@ -68,34 +84,28 @@ Face details:
 youthful oval face with soft baby face features, slightly rounder cheeks with natural fullness and subtle baby fat, shorter and softer chin, very gentle jawline, smooth fair skin with soft translucency and natural glow, almond-shaped dark brown eyes appearing slightly larger and more open, natural double eyelids, soft long lashes, natural straight brows, small delicate nose with rounded tip, natural pink lips with very light tint, soft natural blush, fresh teenage look, minimal makeup, almost bare skin.
 
 Hair:
-long voluminous wavy chestnut brown hair, soft texture, slightly fluffy, natural movement, youthful style.
+long voluminous wavy dark brown hair with highlights, soft texture, slightly fluffy, natural movement, youthful style.
 
-Pose & Action:
-[POSE/ACTION DESCRIPTION]
+Pose & Expression:
+[POSE], [EXPRESSION - eyes closed/looking away/etc, NOT at camera]
 
 Outfit:
 [OUTFIT DESCRIPTION]
 
 Environment:
-[ENVIRONMENT DESCRIPTION]
+[ENVIRONMENT with soft focus background]
 
 Lighting:
-soft natural daylight, diffused light, gentle highlights, soft shadows, bright and fresh atmosphere.
+warm and diffused lighting, casting gentle shadows, highlighting hair and skin, creating a relaxed and elegant atmosphere.
 
 Camera:
-85mm lens, f/2.8, shallow depth of field, subject sharp, soft creamy background blur.
+85mm lens, f/2.8, shallow depth of field, subject sharp, soft creamy background blur, eye-level perspective.
 
 Style:
-natural lifestyle photography, soft pastel tones, low saturation, clean color grading, fresh and airy mood.
-
-Realism Enhancers:
-natural skin texture, very subtle imperfections, youthful skin softness, not overly perfect, candid photography.
-
-Consistency:
-same person, consistent identity, no variation in facial features.
+soft focus background, warm diffused tones, gentle shadows, relaxed elegant atmosphere.
 
 Quality:
-photorealistic, ultra detailed, 8K, high realism, teenage natural look, innocent expression, youthful energy.
+photorealistic, ultra detailed, 8K.
 ```
 
 ---
@@ -103,7 +113,7 @@ photorealistic, ultra detailed, 8K, high realism, teenage natural look, innocent
 ## 📝 EXAMPLE PROMPT
 
 ```
-Wide environmental portrait, rule of thirds composition.
+Wide environmental portrait, rule of thirds composition. Subject positioned on the left side of the frame, facing towards viewer in three-quarter profile.
 
 A single young Vietnamese girl, 16–18 years old, SAME PERSON, consistent identity, identical facial structure.
 
@@ -111,34 +121,28 @@ Face details:
 youthful oval face with soft baby face features, slightly rounder cheeks with natural fullness and subtle baby fat, shorter and softer chin, very gentle jawline, smooth fair skin with soft translucency and natural glow, almond-shaped dark brown eyes appearing slightly larger and more open, natural double eyelids, soft long lashes, natural straight brows, small delicate nose with rounded tip, natural pink lips with very light tint, soft natural blush, fresh teenage look, minimal makeup, almost bare skin.
 
 Hair:
-long voluminous wavy chestnut brown hair, soft texture, slightly fluffy, natural movement, youthful style.
+long voluminous wavy dark brown hair with highlights, soft texture, slightly fluffy, natural movement, youthful style.
 
-Pose & Action:
-She is holding a skincare product in one hand, standing naturally, relaxed posture, soft gentle expression, slightly smiling, candid moment.
+Pose & Expression:
+reclining on a lounge chair, relaxed posture, head tilted slightly back, gentle serene expression with closed eyes and soft lips.
 
 Outfit:
-light beige homewear robe, soft fabric, minimal, natural and youthful styling.
+form-fitting black mini dress with thin spaghetti straps, accented by a delicate gold chain around waist.
 
 Environment:
-bright modern indoor space with large window, soft daylight entering, clean minimal interior, airy feeling.
+outdoor patio or garden with blurred greenery and sunlight, soft focus background.
 
 Lighting:
-soft natural daylight, diffused light, gentle highlights, soft shadows, bright and fresh atmosphere.
+warm and diffused lighting, casting gentle shadows, highlighting hair and skin, creating a relaxed and elegant atmosphere.
 
 Camera:
-85mm lens, f/2.8, shallow depth of field, subject sharp, soft creamy background blur.
+85mm lens, f/2.8, shallow depth of field, subject sharp, soft creamy background blur, eye-level perspective.
 
 Style:
-natural lifestyle photography, soft pastel tones, low saturation, clean color grading, fresh and airy mood.
-
-Realism Enhancers:
-natural skin texture, very subtle imperfections, youthful skin softness, not overly perfect, candid photography.
-
-Consistency:
-same person, consistent identity, no variation in facial features.
+soft focus background, warm diffused tones, gentle shadows, relaxed elegant atmosphere.
 
 Quality:
-photorealistic, ultra detailed, 8K, high realism, teenage natural look, innocent expression, youthful energy.
+photorealistic, ultra detailed, 8K.
 ```
 
 ---
@@ -149,20 +153,19 @@ photorealistic, ultra detailed, 8K, high realism, teenage natural look, innocent
 2. **CONSISTENT FACE** - Use exact face description every time
 3. **BABY FACE** - Rounder cheeks, softer chin, teenage look
 4. **CLEAN QUALITY** - No heavy grain, sharp image
-5. **MUTED COLORS** - Soft pastel, low saturation
-6. **NEVER LOOK AT CAMERA** - Always use gaze away from camera
+5. **WARM DIFFUSED** - Use locked lighting style (warm, gentle shadows)
+6. **NEVER LOOK AT CAMERA** - Eyes closed, looking away, profile, etc.
 
 ## 👁️ GAZE RULE (MANDATORY)
 
 **Subject must NEVER look directly at camera!**
 
 Always add one of these:
+- `closed eyes, serene expression`
 - `looking away to the side`
 - `looking down at [object]`
 - `profile view, looking into distance`
-- `back turned to camera`
-- `looking over shoulder, eyes not at camera`
-- `candid moment, natural gaze direction`
+- `head tilted back, eyes closed`
 
 ---
 
