@@ -150,6 +150,19 @@ photorealistic, ultra detailed, 8K, high realism, teenage natural look, innocent
 3. **BABY FACE** - Rounder cheeks, softer chin, teenage look
 4. **CLEAN QUALITY** - No heavy grain, sharp image
 5. **MUTED COLORS** - Soft pastel, low saturation
+6. **NEVER LOOK AT CAMERA** - Always use gaze away from camera
+
+## 👁️ GAZE RULE (MANDATORY)
+
+**Subject must NEVER look directly at camera!**
+
+Always add one of these:
+- `looking away to the side`
+- `looking down at [object]`
+- `profile view, looking into distance`
+- `back turned to camera`
+- `looking over shoulder, eyes not at camera`
+- `candid moment, natural gaze direction`
 
 ---
 
