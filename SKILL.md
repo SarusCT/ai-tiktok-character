@@ -40,6 +40,9 @@ soft oval face with baby face features, slightly round and full cheeks with natu
 **Hair (EXACT - DO NOT MODIFY):**
 long dark brown wavy hair with big soft waves, center parted, voluminous and fluffy texture, natural movement.
 
+**Body Proportion (EXACT - DO NOT MODIFY):**
+very slim slender ectomorph body type, small bone structure, head-to-body ratio 1:7.5, legs taking 55-60% of total height appearing very long, very small narrow waist high-set, narrow shoulders, long slender neck, thin delicate arms, delicate collarbones visible, graceful S-line silhouette, ethereal lightweight fragile appearance, model-like proportions.
+
 👉 This EXACT description MUST appear in EVERY prompt
 
 ---
