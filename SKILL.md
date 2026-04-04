@@ -49,9 +49,11 @@ very slim slender ectomorph body type, small bone structure, head-to-body ratio 
 
 ## 📐 COMPOSITION (USE FOR ALL)
 
+- **Subject takes maximum 30% of frame height**
+- **Environment occupies 70% of frame**
 - Subject centered in middle and lower portion of frame
 - Environment/background occupying top area
-- Use: `subject centered in middle and lower third of frame`
+- Use: `subject taking maximum 30% of frame height, environment occupying 70% of frame, subject centered in middle and lower third of frame`
 
 ---
 
@@ -74,7 +76,7 @@ soft focus background, warm diffused tones, gentle shadows, relaxed elegant atmo
 ## 📸 OUTPUT PROMPT STRUCTURE
 
 ```
-[COMPOSITION - subject centered in middle and lower third of frame]
+[COMPOSITION - subject taking maximum 30% of frame height, environment occupying 70% of frame, subject centered in middle and lower third of frame]
 
 A single young East Asian woman, early twenties, SAME PERSON, consistent identity, identical facial structure.
 
