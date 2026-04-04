@@ -11,7 +11,7 @@ metadata:
 # AI TIKTOK CHARACTER SKILL (CONSISTENT IDENTITY VERSION)
 
 ## 🎯 GOAL
-Generate cinematic, photorealistic images of ONE consistent Vietnamese female character.
+Generate cinematic, photorealistic images of ONE consistent East Asian female character.
 Every generation MUST keep the SAME face identity.
 
 ---
@@ -32,33 +32,23 @@ This is ONE single person.
 
 ## 👤 CHARACTER IDENTITY (LOCKED - NEVER CHANGE)
 
-A single young Vietnamese girl, 16–18 years old, SAME PERSON, consistent identity, identical facial structure.
+A single young East Asian woman, early twenties, SAME PERSON, consistent identity, identical facial structure.
 
-**Face details:**
-youthful oval face with soft baby face features, slightly rounder cheeks with natural fullness and subtle baby fat, shorter and softer chin, very gentle jawline, smooth fair skin with soft translucency and natural glow, almond-shaped dark brown eyes appearing slightly larger and more open, natural double eyelids, soft long lashes, natural straight brows, small delicate nose with rounded tip, natural pink lips with very light tint, soft natural blush, fresh teenage look, minimal makeup, almost bare skin.
+**Face details (EXACT - DO NOT MODIFY):**
+soft oval face with baby face features, slightly round and full cheeks with natural baby fat, short rounded chin not pointed, very soft jawline with no angles, low flat cheekbones with slightly full cheeks, fair luminous skin with dewy glass skin finish and natural glow, large round dark brown eyes that are bright and clear, natural double eyelids clearly visible, long natural curved lashes, straight natural light brown eyebrows slightly sparse, small delicate nose with low bridge and rounded tip, full plump lips with natural pink coral tint and glossy finish, soft natural blush on cheeks, almost bare face minimal makeup, youthful innocent look.
 
-**Hair:**
-long voluminous wavy dark brown hair with highlights, soft texture, slightly fluffy, natural movement, youthful style.
+**Hair (EXACT - DO NOT MODIFY):**
+long dark brown wavy hair with big soft waves, center parted, voluminous and fluffy texture, natural movement.
 
-👉 This description MUST appear in EVERY prompt
+👉 This EXACT description MUST appear in EVERY prompt
 
 ---
 
-## 📐 COMPOSITION GRID (LOCKED - USE FOR ALL)
+## 📐 COMPOSITION (USE FOR ALL)
 
-**3x3 Grid Rule:**
-```
-| 1 | 2 | 3 |   ← Environment/Sky (top row)
-| 4 | 5 | 6 |   ← Subject in cell 5 (center)
-| 7 | 8 | 9 |   ← Subject in cell 8 (bottom center)
-```
-
-- Subject MUST be positioned in **cell 5 and cell 8** (center column, middle + bottom)
-- Small details (hair, accessories, dress edges) may extend into adjacent cells
-- Top row (1, 2, 3) = environment, sky, background
-- Use: `rule of thirds composition, subject centered in middle and lower third of frame`
-
-👉 This grid MUST be applied in EVERY prompt
+- Subject centered in middle and lower portion of frame
+- Environment/background occupying top area
+- Use: `subject centered in middle and lower third of frame`
 
 ---
 
@@ -78,34 +68,21 @@ soft focus background, warm diffused tones, gentle shadows, relaxed elegant atmo
 
 ---
 
-## 🧩 INPUT
-
-```json
-{
-  "pose": "...",
-  "action": "...",
-  "outfit": "...",
-  "environment": "..."
-}
-```
-
----
-
 ## 📸 OUTPUT PROMPT STRUCTURE
 
 ```
-Rule of thirds 3x3 grid composition, subject centered in middle and lower third of frame (cells 5 and 8), environment occupying top row.
+[COMPOSITION - subject centered in middle and lower third of frame]
 
-A single young Vietnamese girl, 16–18 years old, SAME PERSON, consistent identity, identical facial structure.
+A single young East Asian woman, early twenties, SAME PERSON, consistent identity, identical facial structure.
 
-Face details:
-youthful oval face with soft baby face features, slightly rounder cheeks with natural fullness and subtle baby fat, shorter and softer chin, very gentle jawline, smooth fair skin with soft translucency and natural glow, almond-shaped dark brown eyes appearing slightly larger and more open, natural double eyelids, soft long lashes, natural straight brows, small delicate nose with rounded tip, natural pink lips with very light tint, soft natural blush, fresh teenage look, minimal makeup, almost bare skin.
+Face:
+soft oval face with baby face features, slightly round and full cheeks with natural baby fat, short rounded chin not pointed, very soft jawline with no angles, low flat cheekbones with slightly full cheeks, fair luminous skin with dewy glass skin finish and natural glow, large round dark brown eyes that are bright and clear, natural double eyelids clearly visible, long natural curved lashes, straight natural light brown eyebrows slightly sparse, small delicate nose with low bridge and rounded tip, full plump lips with natural pink coral tint and glossy finish, soft natural blush on cheeks, almost bare face minimal makeup, youthful innocent look.
 
 Hair:
-long voluminous wavy dark brown hair with highlights, soft texture, slightly fluffy, natural movement, youthful style.
+long dark brown wavy hair with big soft waves, center parted, voluminous and fluffy texture, natural movement.
 
 Pose & Expression:
-[POSE], [EXPRESSION - eyes closed/looking away/etc, NOT at camera]
+[POSE], [EXPRESSION - NOT looking at camera]
 
 Outfit:
 [OUTFIT DESCRIPTION]
@@ -119,46 +96,6 @@ warm and diffused lighting, casting gentle shadows, highlighting hair and skin, 
 Camera:
 85mm lens, f/2.8, shallow depth of field, subject sharp, soft creamy background blur, eye-level perspective.
 
-Style:
-soft focus background, warm diffused tones, gentle shadows, relaxed elegant atmosphere.
-
-Quality:
-photorealistic, ultra detailed, 8K.
-```
-
----
-
-## 📝 EXAMPLE PROMPT
-
-```
-Wide environmental portrait, rule of thirds composition. Subject positioned on the left side of the frame, facing towards viewer in three-quarter profile.
-
-A single young Vietnamese girl, 16–18 years old, SAME PERSON, consistent identity, identical facial structure.
-
-Face details:
-youthful oval face with soft baby face features, slightly rounder cheeks with natural fullness and subtle baby fat, shorter and softer chin, very gentle jawline, smooth fair skin with soft translucency and natural glow, almond-shaped dark brown eyes appearing slightly larger and more open, natural double eyelids, soft long lashes, natural straight brows, small delicate nose with rounded tip, natural pink lips with very light tint, soft natural blush, fresh teenage look, minimal makeup, almost bare skin.
-
-Hair:
-long voluminous wavy dark brown hair with highlights, soft texture, slightly fluffy, natural movement, youthful style.
-
-Pose & Expression:
-reclining on a lounge chair, relaxed posture, head tilted slightly back, gentle serene expression with closed eyes and soft lips.
-
-Outfit:
-form-fitting black mini dress with thin spaghetti straps, accented by a delicate gold chain around waist.
-
-Environment:
-outdoor patio or garden with blurred greenery and sunlight, soft focus background.
-
-Lighting:
-warm and diffused lighting, casting gentle shadows, highlighting hair and skin, creating a relaxed and elegant atmosphere.
-
-Camera:
-85mm lens, f/2.8, shallow depth of field, subject sharp, soft creamy background blur, eye-level perspective.
-
-Style:
-soft focus background, warm diffused tones, gentle shadows, relaxed elegant atmosphere.
-
 Quality:
 photorealistic, ultra detailed, 8K.
 ```
@@ -167,12 +104,13 @@ photorealistic, ultra detailed, 8K.
 
 ## ⚠️ RULES
 
-1. **SINGLE PERSON** - Always "single young Vietnamese girl, SAME PERSON"
-2. **CONSISTENT FACE** - Use exact face description every time
-3. **BABY FACE** - Rounder cheeks, softer chin, teenage look
-4. **CLEAN QUALITY** - No heavy grain, sharp image
-5. **WARM DIFFUSED** - Use locked lighting style (warm, gentle shadows)
-6. **NEVER LOOK AT CAMERA** - Eyes closed, looking away, profile, etc.
+1. **SINGLE PERSON** - Always "single young East Asian woman, SAME PERSON"
+2. **CONSISTENT FACE** - Use EXACT face description every time
+3. **BABY FACE** - Round full cheeks, short rounded chin, soft jawline
+4. **DEWY SKIN** - Glass skin, luminous, natural glow
+5. **FULL LIPS** - Plump, glossy coral pink
+6. **WARM DIFFUSED** - Use locked lighting style
+7. **NEVER LOOK AT CAMERA** - Eyes closed, looking away, profile, etc.
 
 ## 👁️ GAZE RULE (MANDATORY)
 
@@ -180,7 +118,7 @@ photorealistic, ultra detailed, 8K.
 
 Always add one of these:
 - `closed eyes, serene expression`
-- `looking away to the side`
+- `gazing softly toward a distant point off-camera`
 - `looking down at [object]`
 - `profile view, looking into distance`
 - `head tilted back, eyes closed`
