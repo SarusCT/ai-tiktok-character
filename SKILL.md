@@ -1,6 +1,6 @@
 ---
 name: ai-tiktok
-description: Generate AI TikTok character images with consistent realistic Vietnamese girl style. Only for image generation in #ai-tiktok-project channel.
+description: Generate AI TikTok character images with consistent realistic Vietnamese girl. Only for #ai-tiktok-project channel.
 metadata:
   openclaw:
     emoji: "🎬"
@@ -10,61 +10,76 @@ metadata:
 
 # ai-tiktok
 
-Generate images of the AI TikTok character.
+Generate images of the AI TikTok character with **consistent face**.
 
-**⚠️ IMPORTANT:**
-- This skill is ONLY for image generation
-- Always use ONLY the prompts from this skill
-- Do NOT mix with chat history or previous conversations
+## ⚠️ CRITICAL RULES
 
-## Trigger
+1. **ONE PERSON ONLY** - Always add `single person, solo, one woman only`
+2. **CONSISTENT FACE** - Always use exact Face Prompt below
+3. **NO CAMERA LOOK** - Subject never looks at camera
+4. **CLEAN IMAGE** - No heavy grain, no blur, sharp quality
+5. **MUTED COLORS** - Soft pastel, low saturation, not vibrant
 
-Use this skill ONLY when user asks to generate/create an image in #ai-tiktok-project channel.
-
-## Character Base (FIXED FACE - MUST USE EXACTLY)
+## Face Prompt (USE EXACTLY - DO NOT MODIFY)
 
 ```
-Young Vietnamese woman, early 20s, oval face with beautiful V-line chin, low flat cheekbones balanced with chin not prominent, soft delicate jawline, warm light tan skin with healthy natural glow and dewy finish, medium almond-shaped dark brown eyes with natural double eyelid, natural dark brown eyebrows with soft arch, small delicate nose with soft rounded tip, medium natural pink lips with coral tint, long voluminous wavy curly chestnut brown hair with lots of texture and movement, wispy curtain bangs framing face, natural fresh makeup style with soft rosy cheeks, youthful radiant appearance, sweet approachable Vietnamese beauty, slim petite figure with natural human proportions, balanced head-to-body ratio, small proportional head, realistic anatomy
-```
-
-## Photography Style
-
-**Indoor / Bedroom / Mirror:**
-```
-cream ivory warm beige palette, muted desaturated earth tones, soft diffused natural window light, no harsh shadows, smooth skin gradients, low contrast lifted shadows, shallow depth of field 85mm f/1.8, creamy bokeh, filmic color grading slightly desaturated, delicate contrast, dreamy calm atmosphere, editorial beauty photography, ultra-detailed photorealistic, natural skin tones
-```
-
-**Beach / Outdoor:**
-```
-natural sunlight, soft highlights, balanced exposure, realistic skin tones (not overexposed), moderate shallow depth of field 85mm f/2.8, subject sharp focus, soft background blur, cinematic color grading, aqua blue tones, teal shadows, airy fresh atmosphere, gentle contrast, natural environment lighting, photorealistic, 8K quality
+A young Vietnamese woman (18 years old) with a youthful oval face, soft V-line chin, gentle jawline, subtle low flat cheekbones not prominent. Smooth fair skin with a natural healthy glow and light dewy finish. Almond-shaped dark brown eyes with natural double eyelids, soft long lashes, natural dark brown brows with soft arch. Small delicate nose with soft rounded tip, natural pink lips with a soft coral tint slightly glossy, soft rosy blush on cheeks. Long voluminous big bouncy curly wavy rich chestnut brown hair with lots of texture and movement, many curls and waves flowing freely, very textured fluffy hair. Natural fresh makeup style, sweet youthful approachable Vietnamese beauty.
 ```
 
 ## Composition
 
 ```
-natural editorial composition, subject centered or slightly off-center, realistic framing, no extreme empty space, balanced headroom, cinematic crop
+Wide environmental portrait, rule of thirds composition. Subject positioned in the lower third of the frame, vast environment occupying the upper two-thirds.
 ```
 
-## Face Control (IMPORTANT - KEEP CONSISTENT)
+## Gaze (NEVER look at camera)
+
+Choose one:
+- `looking toward [object/direction], not at camera`
+- `back turned to camera`
+- `profile view, looking into the distance`
+- `looking down at [object]`
+- `looking over shoulder, not at camera`
+
+## Photography Style (CLEAN - NO HEAVY GRAIN)
 
 ```
-consistent Vietnamese face, oval face V-line chin, low flat cheekbones balanced with chin, warm tan skin dewy finish, almond dark brown eyes double eyelid, long voluminous wavy curly chestnut brown hair with lots of texture, curtain bangs, coral lips, natural fresh makeup
+Soft muted pastel tones, low saturation, gentle faded colors, clean sharp image quality, no heavy film grain, smooth skin texture, shallow depth of field 85mm lens f/2.8, cinematic lighting, photorealistic, ultra-detailed, 8K.
 ```
 
-## Negative Prompt
+## Full Prompt Template
 
 ```
-western face, doll face, porcelain white skin, overly smooth skin, plastic skin, unrealistic big eyes, anime, CGI, 3D render, bad anatomy, distorted face, extra fingers, blur face, overexposed skin, heavy makeup, uncanny valley
+Wide environmental portrait, rule of thirds composition. Subject positioned in the lower third of the frame, vast [ENVIRONMENT] occupying the upper two-thirds. Single subject, one Vietnamese woman only.
+
+[FACE PROMPT - copy exactly from above]
+
+[BODY]. [OUTFIT].
+
+[POSE], [GAZE - not at camera].
+
+[SETTING details].
+
+Soft muted pastel tones, low saturation, gentle faded colors, clean sharp image quality, no heavy film grain, smooth skin texture, shallow depth of field 85mm lens f/2.8, cinematic lighting, photorealistic, ultra-detailed, 8K.
 ```
 
-## Prompt Template
+## Example: Villa Pool
 
 ```
-[SHOT_TYPE], [CHARACTER_BASE], [OUTFIT], [POSE], [SETTING], [GAZE], natural editorial composition, [FACE_CONTROL], [PHOTOGRAPHY_STYLE]
+Wide environmental portrait, rule of thirds composition. Subject positioned in the lower third of the frame, vast luxury villa pool and tropical garden occupying the upper two-thirds. Single subject, one Vietnamese woman only.
+
+A young Vietnamese woman (18 years old) with a youthful oval face, soft V-line chin, gentle jawline, subtle low flat cheekbones not prominent. Smooth fair skin with a natural healthy glow and light dewy finish. Almond-shaped dark brown eyes with natural double eyelids, soft long lashes, natural dark brown brows with soft arch. Small delicate nose with soft rounded tip, natural pink lips with a soft coral tint slightly glossy, soft rosy blush on cheeks. Long voluminous big bouncy curly wavy rich chestnut brown hair with lots of texture and movement, many curls and waves flowing freely, very textured fluffy hair. Natural fresh makeup style, sweet youthful approachable Vietnamese beauty.
+
+Slim figure with balanced natural proportions. Wearing short black backless dress, gold bracelet.
+
+Standing by infinity pool, back turned to camera, looking toward the pool.
+
+Ultra luxury modern villa with infinity pool, white marble deck, palm trees, blue sky.
+
+Soft muted pastel tones, low saturation, gentle faded colors, clean sharp image quality, no heavy film grain, smooth skin texture, shallow depth of field 85mm lens f/2.8, cinematic lighting, photorealistic, ultra-detailed, 8K.
 ```
 
 ## Generation Settings
 
-- **Size:** 1080x1920 (9:16 ratio)
-- Use `image_generate` tool
-- Always include Negative Prompt
+- **Model:** gpt-image-1
+- **Size:** 1024x1536 (portrait 2:3)
