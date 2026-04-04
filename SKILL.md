@@ -116,6 +116,7 @@ photorealistic, ultra detailed, 8K.
 5. **FULL LIPS** - Plump, glossy coral pink
 6. **WARM DIFFUSED** - Use locked lighting style
 7. **NEVER LOOK AT CAMERA** - Eyes closed, looking away, profile, etc.
+8. **BODY JEWELRY UNDER CLOTHES** - Body chains/mesh jewelry always worn UNDER clothes (on skin), NEVER over clothes
 
 ## 👁️ GAZE RULE (MANDATORY)
 
